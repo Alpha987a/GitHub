@@ -1,0 +1,49 @@
+/* 
+**Hoja de Estilo CSS para Todas las Páginas**
+Aquí hay un CSS simple para darle estilo a las páginas. */
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4cdb7;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #081ac1;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #050a68;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #005892;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #4706ca;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
